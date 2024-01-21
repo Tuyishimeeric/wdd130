@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --primary-color: #2C3E50;           /* Deep Blue */
+    --secondary-color: #27AE60;         /* Emerald Green */
+    --accent-color: #3498DB;            /* Royal Blue */
+    --additional-accent-color: #E74C3C; /* Terra Cotta */
+    --heading-font: 'Helvetica', sans-serif;
+    --paragraph-font: 'Arial', sans-serif;
+    --navigation-bg-color: #34495E;     /* Dark Blue-Gray */
+    --navigation-link-color: #ECF0F1;   /* Light Silver */
+    --navigation-hover-link-color: #BDC3C7;  /* Silver */
+    --navigation-hover-bg-color: #2C3E50;    /* Dark Blue */
+  }
+  body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    margin: 0 auto; /* Center the content horizontally */
+    padding: 20px;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: #3498DB; /* Set the color of your choice */
+  }
+  header {
+    padding: 20px; 
+    background-color: var(--primary-color);
+    color: #ECF0F1;
+  }
+  p {
+    padding: 10px; 
+  }
+  nav {
+    background-color: var(--navigation-bg-color);
+    padding: 10px; 
+  }
+  
+  nav a {
+    color: var(--navigation-link-color);
+    text-decoration: none;
+    padding: 8px 12px; 
+    margin-right: 10px; 
+    border-radius: 5px; 
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-bg-color);
+  }
+  
