@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+:root {
+    --primary-color: #2C3E50;           /* Deep Blue */
+    --secondary-color: #27AE60;         /* Emerald Green */
+    --accent-color: #3498DB;            /* Royal Blue */
+    --additional-accent-color: #E74C3C; /* Terra Cotta */
+    --heading-font: 'Helvetica', sans-serif;
+    --paragraph-font: 'Arial', sans-serif;
+    --navigation-bg-color: #34495E;     /* Dark Blue-Gray */
+    --navigation-link-color: #ECF0F1;   /* Light Silver */
+    --navigation-hover-link-color: #BDC3C7;  /* Silver */
+    --navigation-hover-bg-color: #2C3E50;    /* Dark Blue */
+    --text-color: #333;
+}
+h1, h2 {
+    font-family: verdana;
+    color: black;
+    font-size: 300%;
+  }
+  p {
+    padding: 0;
+    line-height: 1.5;
+}
+.social-links {
+    text-decoration: none;
+}
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.hero {
+    position:relative;
+}
+.hero h1,
+.hero article {
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  text-align: center; 
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    float:right;
+
+}
+article {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    color: var(--text-color);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  footer {
+    height:26vh;
+    margin: 0 1rem;
+  }
