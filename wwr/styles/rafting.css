@@ -24,6 +24,14 @@ h1, h2 {
 .social-links {
     text-decoration: none;
 }
+.social-links img {
+  width: 30px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 10vh;
+}
 body {
     max-width: 1200px;
     margin: 0 auto;
@@ -54,7 +62,86 @@ article {
     max-width: 600px;
     margin: 0 auto;
   }
-  footer {
-    height:26vh;
+figure {
+  text-align: center;
+  margin: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color:#fff;
+  padding: 10px;
+  text-align: right;
+  height:26vh;
     margin: 0 1rem;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #3498DB;
+  color: #fff;
+}
+  
+  .logo img {
+    margin: 0 0.25rem 0 1rem;
+    width: 64px;
+    height: auto;
   }
+  
+  h1 {
+    font-size: 2rem;
+    font-family: Acme, Arial, sans-serif;
+  }
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  nav {
+    text-align: right;
+  }
+  
+  .navigation {
+    display: flex;
+    list-style: none;
+  }
+  
+  
+  .navigation a:hover {
+    color: tomato;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  section{
+    padding-top: 4vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+.section-container{
+    display: flex;
+} 
+.history {
+  padding: 20px;
+}
+
+/* Adventures Section styles */
+.adventures {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
